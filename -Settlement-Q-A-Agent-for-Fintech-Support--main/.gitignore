@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.duckdb
+*.parquet
+*.csv
+dbt_finyx/target/
+dbt_finyx/dbt_packages/
+dbt_finyx/logs/
+frontend/node_modules/
+frontend/dist/
+.env

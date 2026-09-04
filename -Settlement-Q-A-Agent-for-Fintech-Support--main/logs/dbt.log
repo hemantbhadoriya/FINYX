@@ -1,0 +1,76 @@
+==================== 2026-09-04T17:31:43.359957Z | 01a06d79-f17b-76e2-a79d-72681084bff4 ====================
+17:31:43.360470 [info ]: dbt-fusion 2.0.0-preview.218
+17:31:43.361572 [info ]: Started loading project
+17:31:43.366804 [info ]: Loading ~/.dbt/profiles.yml
+17:31:43.380889 [debug]:    Started loading packages
+17:31:43.384176 [debug]:     Loaded [  0.00s] packages
+17:31:43.386351 [info ]: Finished loading project [  0.02s]
+17:31:43.387426 [info ]: Started parsing
+17:31:43.429325 [debug]: Finished parsing models/stg_reconciliation.sql [  0.00s]
+17:31:43.684495 [error]: [DependencyNotFound (dbt1048)]: Ref 'gateway_logs' not found in project. Searched for 'dbt_timetable.gateway_logs, gateway_logs'
+  --> models/stg_reconciliation.sql:2:19
+17:31:43.684549 [error]: [DependencyNotFound (dbt1048)]: Ref 'bank_records' not found in project. Searched for 'dbt_timetable.bank_records, bank_records'
+  --> models/stg_reconciliation.sql:5:19
+17:31:43.684569 [error]: [DependencyNotFound (dbt1048)]: Ref 'ledger_data' not found in project. Searched for 'dbt_timetable.ledger_data, ledger_data'
+  --> models/stg_reconciliation.sql:8:19
+17:31:43.685458 [info ]: Finished parsing [  0.30s]
+17:31:56.041771 [info ]: 
+==================== Execution Summary =====================
+Finished 'seed' with 3 errors for target 'dev' [12.7s]
+==================== 2026-09-04T17:31:59.161018Z | 01a06d7a-2f30-7151-899d-7043cf7815b9 ====================
+17:31:59.161623 [info ]: dbt-fusion 2.0.0-preview.218
+17:31:59.162994 [info ]: Started loading project
+17:31:59.172393 [info ]: Loading ~/.dbt/profiles.yml
+17:31:59.189569 [debug]:    Started loading packages
+17:31:59.193129 [debug]:     Loaded [  0.00s] packages
+17:31:59.198132 [info ]: Finished loading project [  0.04s]
+17:31:59.200085 [info ]: Started parsing
+17:31:59.288802 [debug]: Finished parsing models/stg_reconciliation.sql [  0.00s]
+17:31:59.618937 [error]: [DependencyNotFound (dbt1048)]: Ref 'gateway_logs' not found in project. Searched for 'dbt_timetable.gateway_logs, gateway_logs'
+  --> models/stg_reconciliation.sql:2:19
+17:31:59.619032 [error]: [DependencyNotFound (dbt1048)]: Ref 'bank_records' not found in project. Searched for 'dbt_timetable.bank_records, bank_records'
+  --> models/stg_reconciliation.sql:5:19
+17:31:59.619055 [error]: [DependencyNotFound (dbt1048)]: Ref 'ledger_data' not found in project. Searched for 'dbt_timetable.ledger_data, ledger_data'
+  --> models/stg_reconciliation.sql:8:19
+17:31:59.620732 [info ]: Finished parsing [  0.42s]
+17:32:14.670172 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 3 errors for target 'dev' [15.5s]
+==================== 2026-09-04T17:34:05.528905Z | 01a06d7c-1cd0-74a0-add3-644c4e333ccd ====================
+17:34:05.529566 [info ]: dbt-fusion 2.0.0-preview.218
+17:34:05.531176 [info ]: Started loading project
+17:34:05.544010 [info ]: Loading ~/.dbt/profiles.yml
+17:34:05.564496 [debug]:    Started loading packages
+17:34:05.569202 [debug]:     Loaded [  0.00s] packages
+17:34:05.570827 [info ]: Finished loading project [  0.04s]
+17:34:05.571830 [info ]: Started parsing
+17:34:05.614302 [debug]: Finished parsing models/stg_reconciliation.sql [  0.00s]
+17:34:05.773502 [error]: [DependencyNotFound (dbt1048)]: Ref 'gateway_logs' not found in project. Searched for 'dbt_timetable.gateway_logs, gateway_logs'
+  --> models/stg_reconciliation.sql:2:19
+17:34:05.773565 [error]: [DependencyNotFound (dbt1048)]: Ref 'bank_records' not found in project. Searched for 'dbt_timetable.bank_records, bank_records'
+  --> models/stg_reconciliation.sql:5:19
+17:34:05.773578 [error]: [DependencyNotFound (dbt1048)]: Ref 'ledger_data' not found in project. Searched for 'dbt_timetable.ledger_data, ledger_data'
+  --> models/stg_reconciliation.sql:8:19
+17:34:05.774605 [info ]: Finished parsing [  0.20s]
+17:34:11.185908 [info ]: 
+==================== Execution Summary =====================
+Finished 'seed' with 3 errors for target 'dev' [5.7s]
+==================== 2026-09-04T17:34:15.611873Z | 01a06d7c-4433-7be3-af14-1eb57d58d6c7 ====================
+17:34:15.612524 [info ]: dbt-fusion 2.0.0-preview.218
+17:34:15.613994 [info ]: Started loading project
+17:34:15.623026 [info ]: Loading ~/.dbt/profiles.yml
+17:34:15.640575 [debug]:    Started loading packages
+17:34:15.644691 [debug]:     Loaded [  0.00s] packages
+17:34:15.649470 [info ]: Finished loading project [  0.04s]
+17:34:15.650503 [info ]: Started parsing
+17:34:15.737992 [debug]: Finished parsing models/stg_reconciliation.sql [  0.00s]
+17:34:15.974619 [error]: [DependencyNotFound (dbt1048)]: Ref 'gateway_logs' not found in project. Searched for 'dbt_timetable.gateway_logs, gateway_logs'
+  --> models/stg_reconciliation.sql:2:19
+17:34:15.974706 [error]: [DependencyNotFound (dbt1048)]: Ref 'bank_records' not found in project. Searched for 'dbt_timetable.bank_records, bank_records'
+  --> models/stg_reconciliation.sql:5:19
+17:34:15.974726 [error]: [DependencyNotFound (dbt1048)]: Ref 'ledger_data' not found in project. Searched for 'dbt_timetable.ledger_data, ledger_data'
+  --> models/stg_reconciliation.sql:8:19
+17:34:15.976084 [info ]: Finished parsing [  0.33s]
+17:34:29.514723 [info ]: 
+==================== Execution Summary =====================
+Finished 'run' with 3 errors for target 'dev' [13.9s]
